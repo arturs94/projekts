@@ -5,6 +5,8 @@ def check_age(age: int) -> int:
         raise ValueError("Vecums nevar būt negatīvs")
     return age
 
+def is_adult(age: int) -> bool:
+    return age >= 18
 
 if __name__ == "__main__":
     try:
